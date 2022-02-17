@@ -23,7 +23,10 @@ The card assumes that the default sensor names are used and might not work if th
 ### Sample
 
 ```yaml
-type: 'custom:seat-card'
+type: custom:seat-card
 title: My car
-device: Leon
+device: Seat
+imageurl: http://aba/seat.jpg
+entities:
+  - lock.fin_door_locked
 ```
